@@ -1,4 +1,9 @@
-{ name = "guy", animations = {
+-- === TABS / ANIMATIONS CONFIG ===
+-- You can optionally add startTime and endTime numbers (seconds) to each animation config.
+-- Example:
+-- { name = "ShortClip", id = "123456", startTime = 1.2, endTime = 2.8 }
+local tabsConfig = {
+	{ name = "guy", animations = {
 		{ name = "bang ur head", id = "rbxassetid://116268945019667"},
 		{ name = "boing bottom",       id = "rbxassetid://83879434467976"},
 		{ name = "die lit", id = "rbxassetid://116268945019667"},
@@ -59,3 +64,4 @@
 		{ name = "kitty dance :3", id = "90254934897888"},
 		{ name = "pawsies :3", id = "138954156455492"},
 	}},
+}
